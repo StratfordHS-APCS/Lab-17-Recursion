@@ -21,7 +21,7 @@ Whenever you are defining a recursive algorithm you ***must*** include a base ca
 	- gcd(x,y) = gcd(y, remainder of x/y) when y > 0
 * Fibonacci
 	- fib(n) = 0 when n = 0 (**Base Case**)
-	- fib(n) = 0 when n = 1 (**Base Case**)
+	- fib(n) = 1 when n = 1 (**Base Case**)
 	- fib(n) = fib(n-1) + fib(n-2) when n > 1
 
 ## Notes
